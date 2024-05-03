@@ -9,10 +9,38 @@ El Id del trámite, un identificador numérico único
 ● El estado del expediente.
 
 */
+
 class Expediente
 {
     public string caratula;
-    public 
+    public int idTramite;
+
+    public static DateTime fechaCrea;
+
+    public static DateTime fechaMod;
+    
+    public int id_userMod;    
+
+
+    Private String[] Estados(){
+        String[] e = new string[3];
+
+
+        return Estado;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 }
